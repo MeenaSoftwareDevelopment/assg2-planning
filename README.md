@@ -43,3 +43,38 @@ Refine and improve your overall specification and ideas by removing inappropriat
 2.	Use basic pseudo code to help define, establish and quickly test high-level in-game functions, actions and logic (depending on your preference you may prefer to complete step 4 before step 3)
 3.	Use basic UML flowcharts to help plan, design and test game logic, interaction, mechanics and flow
 4.	Establish game state management (start, win, lose, draw) – confirm how the state could be monitored, detected or changed?
+
+# Activity Group Guidance 3 – Coding
+
+1.	Create a Git repository (or similar) to organise your coding strategy 
+2.	Allocate responsibilities 
+3.	Code (regardless of strategy you must continually test).
+4.	Complete this stage of the application (depending on strategy this may be repeated or be an incremental activity)
+
+# Activity Group Guidance 4 – Testing
+
+1.	Conduct end-to-end system testing (as defined in activity 1.11)
+2.	Identify and log any errors (including code, logic, interaction, state, etc.)
+3.	Fix and Repeat (depending on strategy this may mean returning to Activity 2 and or 3)
+4.	Repeat while necessary
+
+
+# Activity Group Guidance 5 – End of Project Review (Part A: 20%)
+
+1.	Complete project source code listing (25%) 
+Your listing should demonstrate:
+o	Consistent evidence of good standards (such as: naming, comments, etc.) (25%)
+o	Consistent evidence of good structure (such as: indenting, continuity, etc.) (25%)
+o	Consistent evidence of good coding practices (such as: modular, defined functions and clear logic) (25%) 
+
+
+# Activity Individual Guidance 6 – Post Project Design Documentation (Part B: 30%)
+
+1.	Gather and document evidence from ALL of your project’s activities and outcomes. 
+2.	Combine and compile ALL project evidence into a well-structured, proofread PowerPoint style presentation* that:
+a.	Identifies and describes the project (5%)
+b.	Identifies each member of your group and summarises their contribution to the project. (5%) 
+c.	Well-annotated screen shots demonstrating and highlighting features and functions of your software (including: segments of source code illustrating how problems were resolved (e.g. NPC, AI and player control) supported by any initial high-level pseudo code, run-time screen captures, errors as well as embedded digital photos of any hand drawn images, diagrams, initial flowcharts or the results of whiteboard brainstorming sessions, etc.) (15%)
+d.	A summary of the ‘target user’ including an example profile (5%)
+e.	An organised list of user requirements (based on the target user) (5%)
+f.	An organised list of system requirements (e.g. the project, the hardware, the software strategy, the game-rules and mechanics, etc.) (10%)
