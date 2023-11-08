@@ -44,14 +44,14 @@ Refine and improve your overall specification and ideas by removing inappropriat
 3.	Use basic UML flowcharts to help plan, design and test game logic, interaction, mechanics and flow
 4.	Establish game state management (start, win, lose, draw) – confirm how the state could be monitored, detected or changed?
 
-# Activity Group Guidance 3 – Coding
+### Activity Group Guidance 3 – Coding
 
 1.	Create a Git repository (or similar) to organise your coding strategy 
 2.	Allocate responsibilities 
 3.	Code (regardless of strategy you must continually test).
 4.	Complete this stage of the application (depending on strategy this may be repeated or be an incremental activity)
 
-# Activity Group Guidance 4 – Testing
+### Activity Group Guidance 4 – Testing
 
 1.	Conduct end-to-end system testing (as defined in activity 1.11)
 2.	Identify and log any errors (including code, logic, interaction, state, etc.)
@@ -59,7 +59,7 @@ Refine and improve your overall specification and ideas by removing inappropriat
 4.	Repeat while necessary
 
 
-# Activity Group Guidance 5 – End of Project Review (Part A: 20%)
+### Activity Group Guidance 5 – End of Project Review (Part A: 20%)
 
 1.	Complete project source code listing (25%) 
 Your listing should demonstrate:
@@ -68,7 +68,7 @@ o	Consistent evidence of good structure (such as: indenting, continuity, etc.) (
 o	Consistent evidence of good coding practices (such as: modular, defined functions and clear logic) (25%) 
 
 
-# Activity Individual Guidance 6 – Post Project Design Documentation (Part B: 30%)
+### Activity Individual Guidance 6 – Post Project Design Documentation (Part B: 30%)
 
 1.	Gather and document evidence from ALL of your project’s activities and outcomes. 
 2.	Combine and compile ALL project evidence into a well-structured, proofread PowerPoint style presentation* that:
