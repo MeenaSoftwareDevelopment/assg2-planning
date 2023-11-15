@@ -4,9 +4,11 @@
 
 Our assignment is to use **Python** to make one of three projects.
 
-## Project Choices
+We chose **Connect 4,** using a TUI interface rather than GUI for simplicity's sake.
 
-*	**Connect 4** - Multiple players can engage in a simple, GUI-based game of Connect 4. **Requires GUI.**
+## Possible Choices
+
+*	**Connect 4** - Multiple players can engage in a simple, GUI-based game of Connect 4. **Requires GUI,** but we can cheat and use a TUI instead.
 *	**Zork** - Multiple players can play a simple, text-based (with images) adventure game. **Requires GUI.**
 *	**Text Messaging** - Multiple users can send simple, text messages to each other. **Probably requires networking.**
 
@@ -19,10 +21,11 @@ Our assignment is to use **Python** to make one of three projects.
 * Platform: Cross Platform (Windows, Mac, Linux)
 * Languages: Python 3.x
 * Collaboration: GitHub
+* Libraries: Probably `prompt_toolkit`, but we'll decide
 
 ### Project Activities
 
-1.	Review all available projects before deciding which to develop
+1.	Review all available projects before deciding which to develop - We chose Connect 4.
 2.	Consider your primary target audience (see Possible Project Target Demographics)
 3.	Create an overall specification based on user and system requirements (including HCI, game-rules and the game-mechanics (e.g. what are the rules for the game, how will the game be controlled, how will any non-player characters interact, etc.)
 4.	Create two different user profiles (based on your selected target type) – these profiles should include basic details regarding individual’s wants and needs associated with the game
