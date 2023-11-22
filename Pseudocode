@@ -20,10 +20,10 @@ while game_over == false:
         
         if valid_move(column):
             place_piece(column, current_player)
-            if check_win_condition = true():
+            if check_win_condition == true():
                 game_over = true
                 display_winner(current_player)
-            else if board_full = true():
+            else if board_full == true():
                 game_over = true
                 display_draw_message()
             else:
