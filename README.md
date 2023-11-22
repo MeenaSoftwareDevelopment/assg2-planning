@@ -6,6 +6,26 @@ Our assignment is to use **Python** to make one of three projects.
 
 We chose **Connect 4,** using a TUI interface rather than GUI for simplicity's sake.
 
+## UI Mockup
+
+```plaintext
+How many rows? (minimum 8, maximum 18)
+> 8
+How many columns? (minimum 6, maximum 14)
+> 6
+Selected grid size: (8, 6)
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+```
+
+Not quite sure how we'll update these boxes to include different tokens, but we'll figure it out, probably, maybe.
+
 ## Possible Choices
 
 *	**Connect 4** - Multiple players can engage in a simple, GUI-based game of Connect 4. **Requires GUI,** but we can cheat and use a TUI instead.
