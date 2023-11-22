@@ -15,6 +15,10 @@ How many rows? (minimum 8, maximum 18)
 > 8
 How many columns? (minimum 6, maximum 14)
 > 6
+Player 1 name (minimum 3 chars)
+> Dave
+Player 2 name (minimum 3 chars)
+> Lily
 Selected grid size: (8, 6)
 [ ] [ ] [ ] [ ] [ ] [ ]
 [ ] [ ] [ ] [ ] [ ] [ ]
@@ -54,6 +58,71 @@ Player 2 Turn
 [ ] [ ] [ ] [ ] [ ] [ ]
 [ ] [ ] [ ] [ ] [ ] [ ]
 [ ] [ ] [ ] [ ] [O] [X]
+```
+
+## Win State Detection
+```plaintext
+Selected grid size: (8, 6)				
+Player 2 Wins!
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [O]
+[ ] [ ] [O] [X] [O] [X]
+[ ] [ ] [X] [O] [X] [X]
+[ ] [ ] [O] [X] [O] [X]
+```
+
+## Draw State Detection
+```plaintext
+Selected grid size: (8, 6)				
+Draw!	       
+[O] [X] [O] [X] [O] [X]
+[X] [O] [X] [O] [X] [O]
+[X] [O] [X] [O] [X] [O]
+[O] [X] [X] [O] [O] [X]
+[X] [O] [O] [X] [X] [O]
+[O] [X] [O] [X] [O] [X]
+[X] [X] [X] [O] [X] [O]
+[O] [O] [O] [X] [O] [X]
+Restart(r)
+```
+
+## Game Over State 
+```plaintext
+Selected grid size: (8, 6)				
+Draw!	       
+[O] [X] [O] [X] [O] [X]
+[X] [O] [X] [O] [X] [O]
+[X] [O] [X] [O] [X] [O]
+[O] [X] [X] [O] [O] [X]
+[X] [O] [O] [X] [X] [O]
+[O] [X] [O] [X] [O] [X]
+[X] [X] [X] [O] [X] [O]
+[O] [O] [O] [X] [O] [X]
+Restart(r)
+```
+
+## Restart Mechanism 
+```plaintext
+How many rows? (minimum 8, maximum 18)
+> 8
+How many columns? (minimum 6, maximum 14)
+> 6
+Player 1 name (minimum 3 chars)
+> Dave
+Player 2 name (minimum 3 chars)
+> Lily
+Selected grid size: (8, 6)
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
 ```
 
 Not quite sure how we'll update these boxes to include different tokens, but we'll figure it out, probably, maybe.
