@@ -1,0 +1,40 @@
+# Game Setup
+initialise game_board
+player1_name = get_player_name("Player 1")
+player2_name = get_player_name("Player 2")
+current_player = player1
+game_over = false
+board_full = false
+
+# Game Loop
+while game_over == false:
+    # Game Start State
+    display_empty_board()
+    display_player_names(player1_name, player2_name)
+    initialise_game_variables()
+    
+    # Player Turn State
+    while game_over == false and board_full == false():
+        display_board()
+        column = get_column_choice(current_player)
+        
+        if valid_move(column):
+            place_piece(column, current_player)
+            if check_win_condition = true():
+                game_over = true
+                display_winner(current_player)
+            else if board_full = true():
+                game_over = true
+                display_draw_message()
+            else:
+                switch_players()
+        else:
+            display_invalid_move_message()
+
+    # Game Over State
+    display_results()
+    restart_option = get_restart_option()
+    if restart_option == "r":
+        reset_game_variables()
+    else:
+        quit()
