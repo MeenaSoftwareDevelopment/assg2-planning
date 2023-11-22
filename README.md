@@ -8,6 +8,8 @@ We chose **Connect 4,** using a TUI interface rather than GUI for simplicity's s
 
 ## UI Mockup
 
+### Game Start
+
 ```plaintext
 How many rows? (minimum 8, maximum 18)
 > 8
@@ -24,7 +26,7 @@ Selected grid size: (8, 6)
 [ ] [ ] [ ] [ ] [ ] [ ]
 ```
 
-## Player Turn State
+### Player 1 Turn State
 
 ```plaintext
 Selected grid size: (8, 6)
@@ -38,6 +40,8 @@ Player 1 Turn
 [ ] [ ] [ ] [ ] [ ] [ ]
 [ ] [ ] [ ] [ ] [ ] [X]
 ```
+
+### Player 2 Turn State
 
 ```plaintext
 Selected grid size: (8, 6)
