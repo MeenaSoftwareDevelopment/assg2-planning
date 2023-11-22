@@ -23,6 +23,33 @@ Selected grid size: (8, 6)
 [ ] [ ] [ ] [ ] [ ] [ ]
 [ ] [ ] [ ] [ ] [ ] [ ]
 ```
+## Player Turn State
+
+```plaintext
+Selected grid size: (8, 6)				
+Player 1 Turn
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [X]
+```
+
+```plaintext
+Selected grid size: (8, 6)
+Player 2 Turn
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [ ] [ ]
+[ ] [ ] [ ] [ ] [O] [X]
+```
 
 Not quite sure how we'll update these boxes to include different tokens, but we'll figure it out, probably, maybe.
 
