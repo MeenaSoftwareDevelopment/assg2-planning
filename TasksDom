@@ -1,0 +1,58 @@
+User and System Requirements – Assignment 2 Software Development – Dom.
+Goal: Develop a cross-platform connect four game that allows two players to compete in a turn-based match. 
+User Requirements: 
+•	Users must be able to play the game by taking turns in a GUI/TUI interface.
+•	The game should support two players taking alternate turns.
+•	Users must be able to select columns to drop their pieces during their turn.
+•	The game should allow players to input their names.
+•	The game must let users know whose turn it is.
+•	The game should declare the winner once four pieces are in a row, horizontally, vertically, or diagonally.
+•	Users should have the option to restart the game once it’s over.
+System Requirements:
+•	As per the assignment brief, the game should be written in Python ver. 3.x+ and runnable on Windows, Mac, and Linux platforms.
+•	The system must have Python ver. 3.x+ installed to run the game.
+•	The game must be able to handle basic input.
+•	Any dependencies or external libraries must be documented and easily installable. 
+High-Level Functional Specifications: 
+•	OS – As the game will not be heavily focused on graphics, any OS that can run Python ver. 3.x+ should be enough, there will be no need for specialized hardware to run this project.
+•	The game will be broken down into 7-9 functions (** Update once the game is done **), those being a Main function to call the game, a function to create the board, a function to display the current state of the board (can be 1 maybe for both?)  A function to log player input, a function to put the pieces on the board, a function to check win, a function to check draw, a function to change player turns and a function to restart/quit the game. ***UPDATE AFTER***
+High-Level Non-Functional Specifications:
+•	The game should display a clear and understandable grid on the console. 
+•	Interface should be uncluttered, with a clean separation between the board and input prompts/messages. 
+•	The game should have intuitive controls, requiring only variable character input for column selection. 
+•	The game should have a minimal lag between input and visual update.
+•	The game should provide both players with feedback regarding successful moves and errors such as if they select a column that is already full. 
+•	The game should announce the winner once the win condition is met.
+•	The game should offer a “play again” prompt or an “exit” prompt once the win condition is met.
+ 
+Game State Management for Connect Four - Assignment 2 Software Development – Dom.
+1.	Game Start State:
+1.1.	Once the game launches, an empty board should be shown.
+1.2.	Players 1 and 2 should get to choose their names.
+1.3.	Initiate functions like move count.
+2.	Player Turn State:
+2.1.	Each player would get prompted to pick a column to place their piece.
+2.2.	Validate the input against what is currently on the board and update the board accordingly.
+2.3.	Switch turns between players after each valid move.
+3.	Win State Detection:
+3.1.	After each move, check for a win condition:
+3.1.1.	Horizontal: Four of the same pieces in a row horizontally.
+3.1.2.	Vertical: Four of the same pieces in a row vertically.
+3.1.3.	Diagonal: Four of the same pieces in a row diagonally, in both directions.
+3.2.	If the win condition is met, print the winner, and offer an option to restart or exit.
+4.	Draw State Detection: 
+4.1.	If all the columns are filled and the win condition is met, declare the game as a draw.
+4.2.	Provide the restart or exit option to the players.
+5.	Game Over State:
+5.1.	Once a win condition or draw condition is met, the game should enter this state.
+5.2.	Display the results (either a win message or a draw message) and allow players to pick to restart. If players pick Restart, then reset all game variables.
+6.	State Transition and Monitoring: 
+6.1.	The game state should be monitored within the main game loop. 
+6.2.	Each action taken at each state should provide a clear transition (Switching players, checking for win/draw, etc).  
+7.	Restart Mechanism:
+7.1.	Functionality to reset the game board and all variables and loops to their initial state, restarting the game. 
+
+
+ 
+
+
