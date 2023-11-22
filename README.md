@@ -72,6 +72,7 @@ Player 2 Wins!
 [ ] [ ] [O] [X] [O] [X]
 [ ] [ ] [X] [O] [X] [X]
 [ ] [ ] [O] [X] [O] [X]
+Restart(r)
 ```
 
 ## Draw State Detection
